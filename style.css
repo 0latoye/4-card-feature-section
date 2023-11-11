@@ -36,6 +36,7 @@ h1{
 h2{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
+    margin-left: 10px;
 }
 
 .thick_h1{
@@ -45,7 +46,7 @@ h2{
 
 .thin_h1{
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 p{
@@ -77,17 +78,17 @@ p{
 }
 
 .supervisor{
-    border-top: 2px solid green;
+    border-top: 2px solid hsl(180, 62%, 55%);
 }
 .tm_build{
-    border-top: 2px solid red;
+    border-top: 2px solid hsl(0, 78%, 62%);
     margin-bottom: 35px;
 }
 .karma{
-    border-top: 2px solid yellow;
+    border-top: 2px solid hsl(34, 97%, 64%);
 }
 .calc{
-    border-top: 2px solid blue;
+    border-top: 2px solid hsl(212, 86%, 64%);
 }
 
 .supervisor,.tm_build,.karma,.calc{
